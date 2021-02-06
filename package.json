@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "test": "yarn lerna run test",
+    "test": "yarn lerna run test --coverage --maxWorkers=2",
     "lint": "yarn lerna run lint",
     "build": "yarn lerna run build",
     "size": "yarn lerna run size",
